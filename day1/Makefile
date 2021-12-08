@@ -17,12 +17,6 @@ day1.o:
 
 .PHONY: test valgrind clean
 
-test: bagtest test.names
-	./bagtest < test.names
-
-valgrind: bagtest test.names
-	$(VALGRIND) ./bagtest < test.names
-
 clean:
 	rm -rf *.dSYM
 	rm -f *~ *.o

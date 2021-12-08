@@ -2,4 +2,7 @@
 ## Advent of Code 2021
 
 ## Repo Details
-This repository contains my solutions to the 2021 iteration of Advent of Code. I'm creating my solutions in C, to continue practicing this language. I will try to solve all solutions in the most efficient manner. This is just for fun!!!
+This repository contains my solutions to the 2021 iteration of Advent of Code. This is just for fun!!!
+
+## Language
+I used C for Day 1 Puzzle 1. But I switched to Python to make things easier.
