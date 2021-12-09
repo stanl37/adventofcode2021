@@ -7,13 +7,13 @@ horizontal = 0
 depth = 0
 
 for string in input:
-  cmd = string.split(" ")[0]
-  dist = int(string.split(" ")[1])
+  cmd, dist = string.split(" ")
+  dist = int(dist)
   if cmd == "forward":
     horizontal += dist
-  if cmd == "up":
+  elif cmd == "up":
     depth -= dist
-  if cmd == "down":
+  elif cmd == "down":
     depth += dist
 
 print(horizontal * depth)

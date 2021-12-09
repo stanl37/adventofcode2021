@@ -6,8 +6,8 @@ input = list(map(int, input))
 
 increaseds = 0
 for i in range(1, len(input) - 2):
-  prev_sum = input[i - 1] + input[i] + input[i + 1]
-  curr_sum = input[i] + input[i + 1] + input[i + 2]
+  prev_sum = sum(input[i-1 : i+2])
+  curr_sum = sum(input[i : i+3])
   if curr_sum > prev_sum:
     increaseds += 1
 
